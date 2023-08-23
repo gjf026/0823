@@ -205,12 +205,13 @@
 -keep class com.github.tvbox.quickjs.** {*;}
 # 支持影视的ali相关的jar
 -keep class com.google.gson.**{*;}
+    # Cronet支持http3
+-keep class com.google.net.cronet.**{*;}
+-keep class org.chromium.net.**{*;}
 # Zxing
 -keep class com.google.zxing.**{*;}
 -keepclassmembers enum * {
     public static [] values();
     public static ** valueOf(java.lang.String);
-    # Cronet支持http3
--keep class com.google.net.cronet.**{*;}
--keep class org.chromium.net.**{*;}
+
 }
