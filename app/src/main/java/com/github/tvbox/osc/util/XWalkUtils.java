@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.widget.Toast;
 
-import org.xwalk.core.XWalkInitializer;
+//import org.xwalk.core.XWalkInitializer;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
